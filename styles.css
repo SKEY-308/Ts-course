@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 body{
   margin: 0;
-  font-family: Roboto; 
+  font-family: Quicksand; 
 }
 .wrapper{
   max-width: 960px;
@@ -8,7 +10,7 @@ body{
 }
 h1{
   margin: 40px auto;
-  color: #ff0aa7;
+  color: #4d06c0;
   text-align: center;
 }
 ul{
@@ -21,7 +23,7 @@ li{
   margin: 10px auto;
 }
 li h4{
-  color: #ff0aa7;
+  color: #4d06c0;
   margin: 0;
   text-transform: capitalize;
 }
@@ -58,7 +60,7 @@ input, select{
 button{
   color: white;
   border: 0;
-  background: #ff0aa7;
+  background: #4d06c0;
   padding: 6px;
   min-width: 80px;
   border-radius: 4px;
@@ -66,7 +68,8 @@ button{
 footer a{
   text-align: center;
   display: block;
-  color: #999;
+  color: #4d06c0;
   margin-top: 40px;
   font-size: 0.7em;
+  text-decoration: none;
 }
