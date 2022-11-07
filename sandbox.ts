@@ -120,4 +120,29 @@ let mixen: (string|number|boolean)[] = []
 mixen.push('hello', 45, true)
 console.log(mixen)
 
+let id: string|number
+id = '89'
+id = 123
+
 //--------- objects
+let keyOne: object;
+keyOne = {
+   name: "Severus", 
+   age: 5
+}
+console.log(keyOne)
+
+// Or
+let keyTwo: {
+   name: string
+   age: number
+   beltColor: string
+   isColored: boolean
+} 
+keyTwo = {
+   name: "Kanan",
+   age: 56,
+   beltColor: 'Black',
+   isColored: true
+}
+console.log(keyTwo)

@@ -77,4 +77,22 @@ key.push('Manioc', 'Noir');
 var mixen = [];
 mixen.push('hello', 45, true);
 console.log(mixen);
+var id;
+id = '89';
+id = 123;
 //--------- objects
+var keyOne;
+keyOne = {
+    name: "Severus",
+    age: 5
+};
+console.log(keyOne);
+// Or
+var keyTwo;
+keyTwo = {
+    name: "Kanan",
+    age: 56,
+    beltColor: 'Black',
+    isColored: true
+};
+console.log(keyTwo);
