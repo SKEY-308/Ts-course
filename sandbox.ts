@@ -9,6 +9,10 @@ inputs.forEach(input => {
 });  
 
 
+
+
+
+
 // -----------------------------------------------  Type Basics
 
 let karacter = 'james';
@@ -30,6 +34,11 @@ const circ = (diameter: number) => {
 }
 
 console.log(circ(9));
+
+
+
+
+
 
 
 // -----------------------------------------------  Objects & Arrays
@@ -75,13 +84,29 @@ keys = {
 }
 console.log(keys)
 
-// explicit types
 
 
-// arrays
+  
+
+// -----------------------------------------------  Explicit Types
+
+//------- explicit types
+let caracter: string
+let ages: number
+let isLoggedIn: boolean
+
+ages= 78
+// ages = 'marc'
+caracter = 'strong'
+// caracter = 54
+// isLoggedIn = 67
+isLoggedIn = false
 
 
-// union types
+//-------- arrays
 
 
-// objects
+// -------union types
+
+
+//--------- objects

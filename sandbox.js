@@ -52,7 +52,17 @@ keys = {
     age: 89
 };
 console.log(keys);
-// explicit types
-// arrays
-// union types
-// objects
+// -----------------------------------------------  Explicit Types
+//------- explicit types
+var caracter;
+var ages;
+var isLoggedIn;
+ages = 78;
+// ages = 'marc'
+caracter = 'strong';
+// caracter = 54
+// isLoggedIn = 67
+isLoggedIn = false;
+//-------- arrays
+// -------union types
+//--------- objects
