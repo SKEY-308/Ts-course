@@ -36,6 +36,11 @@ const circ = (diameter: number) => {
 console.log(circ(9));
 
 
+const sauceTomate = (eau: number) => {
+   return 2*eau
+}
+console.log(sauceTomate(7))
+
 
 
 
@@ -104,9 +109,15 @@ isLoggedIn = false
 
 
 //-------- arrays
-
+let key: string[] = []
+// key = [12, 23]
+key = ["blanc", "blue", '45']
+console.log(key)
+key.push('Manioc', 'Noir')
 
 // -------union types
-
+let mixen: (string|number|boolean)[] = []
+mixen.push('hello', 45, true)
+console.log(mixen)
 
 //--------- objects

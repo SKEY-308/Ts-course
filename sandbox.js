@@ -19,6 +19,10 @@ var circ = function (diameter) {
     return diameter * Math.PI;
 };
 console.log(circ(9));
+var sauceTomate = function (eau) {
+    return 2 * eau;
+};
+console.log(sauceTomate(7));
 // -----------------------------------------------  Objects & Arrays
 // Arrays
 var names = ['james', 'mario', 'blanca'];
@@ -64,5 +68,13 @@ caracter = 'strong';
 // isLoggedIn = 67
 isLoggedIn = false;
 //-------- arrays
+var key = [];
+// key = [12, 23]
+key = ["blanc", "blue", '45'];
+console.log(key);
+key.push('Manioc', 'Noir');
 // -------union types
+var mixen = [];
+mixen.push('hello', 45, true);
+console.log(mixen);
 //--------- objects
