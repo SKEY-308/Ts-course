@@ -146,3 +146,25 @@ keyTwo = {
    isColored: true
 }
 console.log(keyTwo)
+
+
+
+// -----------------------------------------------  Dynamic(any) types
+
+let Age: any = 25
+Age = true;
+console.log(Age)
+Age = {name: 'mario'}
+console.log(Age)
+
+let Mixed: any[] = []
+Mixed.push('mario', 45, true)
+console.log(Mixed)
+
+let ninja: {name: any, age: any}
+
+ninja = {name: 'Severus', age: 3}
+console.log(ninja)
+
+ninja = {name: 23, age: 'fourty nine'}
+console.log(ninja)
