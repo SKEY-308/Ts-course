@@ -4,7 +4,7 @@ var inputs = document.querySelectorAll('input');
 inputs.forEach(function (input) {
     console.log(input);
 });
-// -----------------------------------------------  Type Basics
+// -----------------------------------------------  #3 - Type Basics
 var karacter = 'james';
 var age = 30;
 var isBlackBelt = false;
@@ -23,7 +23,7 @@ var sauceTomate = function (eau) {
     return 2 * eau;
 };
 console.log(sauceTomate(7));
-// -----------------------------------------------  Objects & Arrays
+// -----------------------------------------------  #4 - Objects & Arrays
 // Arrays
 var names = ['james', 'mario', 'blanca'];
 names.push('israel');
@@ -56,7 +56,7 @@ keys = {
     age: 89
 };
 console.log(keys);
-// -----------------------------------------------  Explicit Types
+// -----------------------------------------------  #5 - Explicit Types
 //------- explicit types
 var caracter;
 var ages;
@@ -96,7 +96,7 @@ keyTwo = {
     isColored: true
 };
 console.log(keyTwo);
-// -----------------------------------------------  Dynamic(any) types
+// -----------------------------------------------  #6 - Dynamic(any) types
 var Age = 25;
 Age = true;
 console.log(Age);
@@ -110,3 +110,4 @@ ninja = { name: 'Severus', age: 3 };
 console.log(ninja);
 ninja = { name: 23, age: 'fourty nine' };
 console.log(ninja);
+// -----------------------------------------------  #7 - Better Workflow & tsconfig

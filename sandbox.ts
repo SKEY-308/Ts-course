@@ -13,7 +13,7 @@ inputs.forEach(input => {
 
 
 
-// -----------------------------------------------  Type Basics
+// -----------------------------------------------  #3 - Type Basics
 
 let karacter = 'james';
 let age = 30;
@@ -46,7 +46,7 @@ console.log(sauceTomate(7))
 
 
 
-// -----------------------------------------------  Objects & Arrays
+// -----------------------------------------------  #4 - Objects & Arrays
 
 // Arrays
 let names = ['james', 'mario', 'blanca'];
@@ -93,7 +93,7 @@ console.log(keys)
 
   
 
-// -----------------------------------------------  Explicit Types
+// -----------------------------------------------  #5 - Explicit Types
 
 //------- explicit types
 let caracter: string
@@ -149,7 +149,7 @@ console.log(keyTwo)
 
 
 
-// -----------------------------------------------  Dynamic(any) types
+// -----------------------------------------------  #6 - Dynamic(any) types
 
 let Age: any = 25
 Age = true;
@@ -168,3 +168,6 @@ console.log(ninja)
 
 ninja = {name: 23, age: 'fourty nine'}
 console.log(ninja)
+
+
+// -----------------------------------------------  #7 - Better Workflow & tsconfig
